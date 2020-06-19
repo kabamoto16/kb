@@ -1,0 +1,146 @@
+
+body{
+  font-family: sans-serif;
+  line-height:1.5;
+  background-color:　#999999;
+  color: black;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+header{
+  margin-bottom: 10px auto;
+  height: 360px;
+  background-image: url(hunters-race-MYbhN8KaaEc-unsplash.jpg);
+  background-size: cover;
+}
+
+.header-logo{
+  position: relative;
+  color: white;
+  line-height: 360px;
+  text-align: center;
+}
+
+.header-logo h1{
+  text-align: center;
+  margin: 0;
+  font-size: 36px;
+}
+
+.header-list{
+  display: table;
+  justify-content: space-around;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.header-list a{
+  display: inline-block;
+  width: 50%;
+  transition: all 1s;
+  line-height: 30px;
+  background-color: darkgray;
+  color: white;
+}
+.header-list a:hover{
+  background-color: #021E4F;
+}
+
+
+.left-column{
+  text-align: center;
+  padding: 20px 0px;
+  /* background-color: blue; */
+
+}
+
+.right-column{
+  text-align: center;
+  padding: 20px 0px;
+  /* background-color: pink; */
+}
+
+.main{
+  display: flex;
+}
+
+.info{
+    width: 275px;
+    height: 700px;
+}
+
+.photo{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.photo img{
+  height: auto;
+    width: 200px;
+}
+
+.sentence{
+  background-color: darkgray;
+  word-wrap: break-word;
+  padding-left: 10px;
+  color: white;
+}
+
+.menu{
+  width: 275px;
+}
+
+.menu ul{
+  padding-left: 0px;
+}
+
+
+.menu li{
+  background-color: darkgray;
+  color: white;
+  height: 40px;
+  border-bottom: 5px solid white;
+  text-align: center;
+}
+
+.menu li a{
+  transition: all 1s;
+  display: block;
+  line-height: 40px;
+  color: white;
+}
+
+.menu li a:hover{
+  background-color: #021E4F;
+}
+
+.contents{
+  padding: 0px 50px;
+}
+
+.blog{
+  height: 800px;
+}
+
+.blog h1 {
+  text-align: center;
+}
+
+.blog p{
+  text-justify: auto;
+}
+
+.contact-form{
+  height: 350px;
+  background-color: pink;
+}
+
+.copyright{
+  text-align: center;
+  font-family: times;
+}
